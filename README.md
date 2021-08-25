@@ -1,8 +1,6 @@
 # LibetClock
-Python(Psychopy) Implementation of Benjamin Libet's Clock Paradigm for Free Will investigations
+Psychopy-based implementation of Libet's Clock Paradigm (Libet et al., 1983) for free will studies.
 
-Here it is Python implementation of Libet Clock presented. You can change any parameter in GENERAL SETTING block to fit the solution for your experiment needs. In the current version parallel port tags are included (commented). By default, the following data are stored to .csv file:
-  time of button press (on relative and absolute scales)
-  real duration of rotation cycle during the trial
-  reported time of W\M in both pseudosecond in real milliseconds 
-  time of decision making process (W\M)
+The files:
+1) the_clock.py contains the LClock object, whose methods provides user with the means to construct Libet-type experiments easily and to save the needed data.
+2) example_exp.py contains an example of LClock's use in a simple Libet-type experiment 
